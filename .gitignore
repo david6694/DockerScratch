@@ -1,0 +1,12 @@
+# Secrets Docker (mots de passe)
+secrets/*.txt
+!secrets/*.txt.example
+
+# Variables d'environnement locales
+srcs/.env
+!srcs/.env.example
+
+# Fichiers système, éditeurs et VM
+.DS_Store
+*.swp
+.vagrant/
